@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head> </head>
+    
+    <body>
+    <script>
+
+        var resultado = prompt("Digite seu nome e sobrenome ")
+
+        var aniversarios = ["23/04/2005", "04/02/2016", "08/06/1982", "29/07/1981"]
+        console.log (aniversarios)
+
+        if (resultado == "João Barros"){
+            var diferenciador = prompt("Filho ou Neto?")
+
+            if(diferenciador == "Filho"){
+                document.write("Data de aniverário : " +aniversarios[3])
+            }
+            else if (diferenciador == "Neto"){
+                document.write("O aniversário do lindão é : " +aniversarios[0])
+            }
+            else
+            document.write("Termo inválido")
+        }
+        else if (resultado == "Marcicleide Cristina"){
+            document.write("Data de aniverário : " +aniversarios[2])
+        }
+        else if (resultado == "Luiz Rafael"){
+            document.write("o aniversário do lindo : " +aniversarios[1])
+        }
+        else
+        document.write("Termo inválido")
+        
+
+    </script>
+    </body>
+
+</html>
